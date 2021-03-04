@@ -20,7 +20,7 @@ body{
     
  /*#180f8e, #18117b, #0f063e -->*/
 
-    background-image: url("presence.png");
+    background-image: url("Fondo.png");
     background-color:var(--main-bg-color);
     color: white;
     text-align: center;
