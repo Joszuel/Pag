@@ -1,113 +1,89 @@
 
-* {
-    margin: 0em;
-    padding-top: 0vh;
-    padding-bottom: 0vh;
-    padding-right: 0vw;
-    padding-left: 0vw;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-@media screen {
+/*-------------------------Cabecera--------------------------------------------*/
 
+#cabecera{
+    border: solid black;
+    display:flex;
+    align-items:center;;
 }
 
-:root{
-    --main-bg-color: rgba(0, 0, 0, 0.75);
-    
+#cabecera figure{
+    height: 100px;
+    width: 100px;
 }
 
-body{
-    
- /*#180f8e, #18117b, #0f063e -->*/
-
-    background-image: url("Fondo.png");
-    background-color:var(--main-bg-color);
-    color: white;
+#cabecera :nth-child(2){
     text-align: center;
-    font-size: 1em;
-    font-family: 'casterllar';
-    margin: 1vw;
+    flex:1;
+
 }
 
+/*--------------------------Navegador--------------------------------------------*/
 
-.cab{
-    background-color: var(--main-bg-color);
-}
-
-#titulo{
-    font-size: 3em;
-    font-style: initial;
-}
-
-#cinta{ 
-    color:white;
+.navegador{
     display: flex;
-    justify-content: center;;
+    justify-content:space-around;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0px;
 }
 
+.navegador a{
+    flex-basis: 100%;
+    height:45px;
+}
 
-#cinta li{
-    font-size: 1.2em;
-    font-weight: 900;
-    list-style:none;
+.navegador a button{
+    color: blanchedalmond;
     background-color: black;
-    width: 32.36vw;
-    padding: 2vh 0
-}
-
-#cinta a{
-    text-decoration: none;
-    color: white;
-}
-
-#botones{
-    display: flex;
-    justify-content: center;
-    border: 2vh solid transparent;
-    border-left: 0em;
-    border-right: 0em;
-}
-
-#botones button{
-    height: 10vh;
-    width: 100vw;
-
-    background-color: var(--main-bg-color);
-    color: white;
-    font-size: 0.8em;
-    font-family: 'casterllar';
     outline: none;
+    width: 100%;
+    height: 100%;
 }
 
-#botones button:active{
-    background-color: rgb(8, 0, 56);
+/*------------------------------textos---------------------------------------*/
+
+
+.caja{
+    width: 75%;
+    height: 90vh;
 }
 
-#portafolio{
-    display: flex;
-    justify-content: center;
-    border: 2vh solid transparent;
-    border-left: 0em;
-    border-right: 0em;
+.caja:nth-child(odd){
+    background-color: rgb(197, 197, 197);
 }
 
-#portafolio button{
-    height: 10vh;
-    width: 32.36vw;
-    background-color: var(--main-bg-color);
-    outline: none;
+.caja:nth-child(even){
 }
 
-#portafolio button:active{
-    background-color: rgb(8, 0, 56);
+
+.caja h2{
+    text-align: center;
 }
 
-.contenido{
-    background-color: var(--main-bg-color);
-    height: 84vh;
-}
-
-#text{
+.caja p{
+    margin: 0 auto ;
     text-align: justify;
 }
 
+/*-----------------------------------------Lateral-----------------------------*/
+
+.lateral{
+    display: block;
+    position: sticky;
+    top: 45px;
+    float:right;
+    overflow-y: scroll;
+    background-color: black;
+    color: blanchedalmond;
+
+    width: 25%;
+    height: 92vh;
+
+
+}
