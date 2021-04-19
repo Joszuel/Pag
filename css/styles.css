@@ -1,15 +1,42 @@
-
+:root{
+    
+    --var-colorFondo:#575757;
+    --var-colorFondo2:#642a20;
+    --var-colorDetalles:#2c2c2c;
+    --var-colorDetalles2:rgb(24, 24, 24);
+    *//*
+    --var-colorFondo:#dbe4ed;
+    --var-colorFondo2:#a3bad2;
+    --var-colorDetalles:#436280;
+    --var-colorDetalles2:#112236;
+    */
+}
 *{
     margin: 0px;
     padding: 0px;
+    color: rgb(202, 200, 200);
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: var(--var-colorFondo);
+    background-image: url("1.png");
+
 }
 
 /*-------------------------Cabecera--------------------------------------------*/
 
 #cabecera{
-    border: solid black;
+    border: solid var(--var-colorDetalles2);
+    background-color: var(--var-colorDetalles);
     display:flex;
-    align-items:center;;
+    align-items:center;
+    margin: 10px;
 }
 
 #cabecera figure{
@@ -18,6 +45,7 @@
 }
 
 #cabecera :nth-child(2){
+    color: white;
     text-align: center;
     flex:1;
 
@@ -28,19 +56,20 @@
 .navegador{
     display: flex;
     justify-content:space-around;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     position: sticky;
-    top: 0px;
+    top: 10px;
+    z-index: 3;
 }
 
 .navegador a{
-    flex-basis: 100%;
+    flex-basis: 31%;
     height:45px;
 }
 
 .navegador a button{
-    color: blanchedalmond;
-    background-color: black;
+    color: white;
+    background-color: var(--var-colorDetalles);
     outline: none;
     width: 100%;
     height: 100%;
@@ -48,14 +77,22 @@
 
 /*------------------------------textos---------------------------------------*/
 
-
-.caja{
-    width: 75%;
-    height: 90vh;
+#s1, #s2, #s3 {
+    padding-top: 60px;
+    margin-bottom: 10px;
 }
 
+.caja{
+    height: 80vh;
+    width: 55%;
+    padding: 30px;
+    margin: 0px 50px;
+    background-color: var(--var-colorFondo2);
+    border: solid 2px;
+    border-color: rgb(34, 34, 34) rgb(100, 100, 100) rgb(100, 100, 100) rgb(34, 34, 34);
+}
 .caja:nth-child(odd){
-    background-color: rgb(197, 197, 197);
+    
 }
 
 .caja:nth-child(even){
@@ -73,17 +110,19 @@
 
 /*-----------------------------------------Lateral-----------------------------*/
 
-.lateral{
+.lateral {
     display: block;
     position: sticky;
-    top: 45px;
+    margin-top: 50px;
+    margin-right: 50px;
+    top: 60px;
     float:right;
     overflow-y: scroll;
-    background-color: black;
-    color: blanchedalmond;
-
+    font-size: 10px;
     width: 25%;
-    height: 92vh;
-
+    height: 89vh;
+    background-color: var(--var-colorFondo2);
+    border: solid 2px;
+    border-color: rgb(128, 128, 128)  rgb(34, 34, 34)  rgb(34, 34, 34) rgb(128, 128, 128);
 
 }
