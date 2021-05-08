@@ -29,9 +29,9 @@ body{
 }
 
 .lateral a{
-    width: 80%;
+    width: 100%;
     height:10vh;
-    margin: 5px 0;
+    margin: 5px 5px;
 }
 
 .lateral button{
