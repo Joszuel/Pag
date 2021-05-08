@@ -30,14 +30,14 @@ body{
 
 .lateral a{
     width: 100%;
-    height:10vh;
+    height:7.5vh;
     margin: 5px 5px;
 }
 
 .lateral button{
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .contenedor_contenedorcarrucel{
