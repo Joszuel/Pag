@@ -4,6 +4,12 @@
     
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+
 .cabecera{
     text-align: center;
 }
