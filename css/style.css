@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    color: blanchedalmond;
-    scroll-behavior: smooth;
+    color: white;
 }
 
 body{
-    background-color: black;
-    color: blanchedalmond;
+    margin: 10px;
+    background-color:rgb(6, 6, 87);
 }
 
 .cabecera{
