@@ -43,7 +43,7 @@ body{
 }
 
 .contenedor_contenedorcarrucel{
-    overflow-x:scroll;
+    overflow-x:hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 63vw;
@@ -64,4 +64,12 @@ body{
 
 .carrucelcajas img{
     width: 100%;
+}
+
+.carrucelcajas h2,h3{
+    margin: 6vh 0;
+} 
+
+.carrucelcajas li,p{
+    text-align: left;
 }
