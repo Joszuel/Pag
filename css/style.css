@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    color: blanchedalmond;
     scroll-behavior: smooth;
 }
 
@@ -16,48 +16,50 @@ body{
 
 .contenedor{
     display: flex;
+    justify-content: space-between;
 }
 
 .lateral{
     position: sticky;
     display:flex;
+    top: 5vh;
     flex-wrap: wrap;
     overflow-y: scroll;
-    width: 30vw;
     height: 90vh;
-    margin: 0 auto 0 0;
+    width: 35vw;
 }
 
 .lateral a{
     width: 100%;
-    height:7.5vh;
-    margin: 5px 5px;
+    height: 6vh;
+    margin: 5px 0px;
 }
 
 .lateral button{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 100px 0 0 100px;
+    background-color: transparent;
 }
 
 .contenedor_contenedorcarrucel{
     overflow-x:scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    margin: 0 auto;
-    width: 60vw;
+    width: 63vw;
     height:min-content;
 }
 
 .carrucel{
     display: flex;
-    width: 1380vw;
+    width: 1449vw;
 }
 
 .carrucelcajas{
+    text-align: center;
     scroll-snap-align: start;
     box-sizing: border-box;
-    width: 60vw;
+    width: 63vw;
 }
 
 .carrucelcajas img{
