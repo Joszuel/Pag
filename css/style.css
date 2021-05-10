@@ -85,12 +85,30 @@ body{
 
 .carrucelcajas img{
     width: 100%;
+    justify-content: center;
 }
 
-.carrucelcajas h2,h3{
-    margin: 1.5vh 0;
-} 
+.descripcion{
+    display: flex;
+    margin: 1vh 0;
+}
 
-.carrucelcajas li,p{
+.sip{
+    width: 30vw;
+}
+
+.sip h2{
+    margin-bottom: 2vh;
+}
+
+.sip p{
+    text-align: justify;
+}
+
+.fic{
+    margin: auto;
+}
+
+.fic li{
     text-align: left;
 }
