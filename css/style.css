@@ -27,7 +27,7 @@ body{
     flex-wrap: wrap;
     overflow-y:scroll;
     height: 90vh;
-    width: 30vw;
+    width: 31vw;
 }
 
 .lateral::-webkit-scrollbar{
