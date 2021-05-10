@@ -78,7 +78,7 @@ header{
 .carrucel{
     display: flex;
     width: 1380vw;
-    height: 90vh;
+    height: 95vh;
 }
 
 .carrucelcajas{
@@ -97,7 +97,7 @@ header{
 
 .carrucelcajas h2{
 
-    margin: 1em auto;
+    margin: 0em auto 1em auto;
 }
 
 .descripcion{
