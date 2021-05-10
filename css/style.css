@@ -6,7 +6,7 @@
 
 body{
     margin: 10px;
-    background-color:black;
+    background-image: url(fondo.png);
 }
 
 .cabecera{
