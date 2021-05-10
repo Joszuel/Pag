@@ -89,12 +89,15 @@ body{
 }
 
 .descripcion{
+    width: 100%;
     display: flex;
     margin: 1vh 0;
+    flex-wrap: wrap;
 }
 
 .sip{
-    width: 30vw;
+    width: 15em;
+    margin: auto;
 }
 
 .sip h2{
