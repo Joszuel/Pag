@@ -83,7 +83,7 @@ header{
 
 .carrucelcajas{
     text-align: center;
-    justify-content: center;
+    justify-content:space-around;
     scroll-snap-align: start;
     box-sizing: border-box;
     width: 60vw;
