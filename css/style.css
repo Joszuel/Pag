@@ -67,6 +67,7 @@ body{
     scroll-behavior: smooth;
     width: 60vw;
     height:min-content;
+    margin: auto;
 }
 
 .carrucel{
@@ -98,11 +99,7 @@ body{
 
 .sip{
     width: 25em;
-    margin: 1em 0;
-}
-
-.sip h2{
-    margin-bottom: 2vh;
+    margin-bottom: 1em;
 }
 
 .sip p{
@@ -111,7 +108,7 @@ body{
 
 .fic{
     width: 25em;
-    margin: 1em 0;
+    margin-bottom: 1em;
 }
 
 .fic li{
