@@ -39,7 +39,7 @@ header{
     top: 2vh;
     flex-wrap: wrap;
     overflow-y:scroll;
-    height: 50em;
+    height: 90vh;
     width: 32vw;
 }
 
@@ -49,7 +49,7 @@ header{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 5em;
+    height: 9em;
     width: 30vw;
     border: none;
     background-color: black;
