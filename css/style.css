@@ -20,11 +20,12 @@ body{
 }
 
 .lateral{
+    direction: rtl;
     position: sticky;
     display:flex;
     top: 5vh;
     flex-wrap: wrap;
-    overflow-y: scroll;
+    overflow-y:scroll;
     height: 90vh;
     width: 35vw;
 }
@@ -39,6 +40,7 @@ body{
 
 
 .boton{
+    direction: ltr;
     display:flex;
     align-items: center;
     justify-content: center;
