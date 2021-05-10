@@ -28,6 +28,13 @@ body{
     width: 35vw;
 }
 
+.lateral::-webkit-scrollbar{
+    width: 1vw;
+}
+.lateral::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
 .lateral a{
     width: 100%;
     height: 6vh;
@@ -56,20 +63,20 @@ body{
     overflow-x:hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    width: 63vw;
+    width: 60vw;
     height:min-content;
 }
 
 .carrucel{
     display: flex;
-    width: 1449vw;
+    width: 1380vw;
 }
 
 .carrucelcajas{
     text-align: center;
     scroll-snap-align: start;
     box-sizing: border-box;
-    width: 63vw;
+    width: 60vw;
 }
 
 .carrucelcajas img{
