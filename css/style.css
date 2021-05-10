@@ -49,12 +49,12 @@ header{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 6vh;
+    height: 10vh;
     width: 30vw;
     border: none;
     background-color: black;
-    border: solid 3px white;
-    margin: auto;
+    border: solid 2px white;
+    margin: 2px auto;
 }
 
 .boton:hover{
@@ -89,7 +89,7 @@ header{
 }
 
 .carrucelcajas img{
-    width: 80%;
+    width: 75%;
     justify-content: center;
 }
 
