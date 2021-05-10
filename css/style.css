@@ -93,11 +93,12 @@ body{
     display: flex;
     margin: 1vh 0;
     flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .sip{
-    width: 15em;
-    margin: auto;
+    width: 25em;
+    margin: 1em 0;
 }
 
 .sip h2{
@@ -109,7 +110,8 @@ body{
 }
 
 .fic{
-    margin: auto;
+    width: 25em;
+    margin: 1em 0;
 }
 
 .fic li{
