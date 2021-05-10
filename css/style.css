@@ -41,7 +41,7 @@ header{
     flex-wrap: wrap;
     overflow-y:scroll;
     height: 90vh;
-    width: 31vw;
+    width: 32vw;
 }
 
 .boton{
@@ -93,6 +93,11 @@ header{
 .carrucelcajas img{
     width: 75%;
     justify-content: center;
+}
+
+.carrucelcajas h2{
+
+    margin: 1em auto;
 }
 
 .descripcion{
