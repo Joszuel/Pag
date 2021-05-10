@@ -16,7 +16,6 @@
 
 
 body{
-    margin: 10px;
     background-image: url(fondo.png);
     font-size: 0.75em;
 }
@@ -37,10 +36,10 @@ header{
     direction: rtl;
     position: sticky;
     display:flex;
-    top: 1vh;
+    top: 5vh;
     flex-wrap: wrap;
     overflow-y:scroll;
-    height: 90vh;
+    height: 50em;
     width: 32vw;
 }
 
@@ -50,7 +49,7 @@ header{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 6vh;
+    height: 5em;
     width: 30vw;
     border: none;
     background-color: black;
@@ -72,26 +71,25 @@ header{
     scroll-behavior: smooth;
     width: 60vw;
     height:min-content;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .carrucel{
     display: flex;
     width: 1380vw;
-    height: 95vh;
+    height: 96vh;
 }
 
 .carrucelcajas{
     text-align: center;
     justify-content:space-around;
     scroll-snap-align: start;
-    box-sizing: border-box;
     width: 60vw;
     
 }
 
 .carrucelcajas img{
-    width: 75%;
+    width: 80%;
     justify-content: center;
 }
 
@@ -110,7 +108,7 @@ header{
 
 .sip{
     width: 25em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 .sip p{
@@ -119,7 +117,7 @@ header{
 
 .fic{
     width: 25em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 .fic li{
