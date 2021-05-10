@@ -29,10 +29,11 @@ body{
 }
 
 .lateral::-webkit-scrollbar{
-    width: 1vw;
+    width: 0.5vw;
 }
 .lateral::-webkit-scrollbar-thumb{
     background-color: white;
+    border-radius: 100px;
 }
 
 .lateral a{
@@ -54,9 +55,7 @@ body{
 }
 
 .lateral button:active{
-    background-color: black;
-    border: solid 3px white;
-    color: blanchedalmond;
+    background-color: gray;
 }
 
 .contenedor_contenedorcarrucel{
