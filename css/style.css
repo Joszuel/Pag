@@ -4,10 +4,24 @@
     color: white;
 }
 
+
+*::-webkit-scrollbar{
+    width: 0.5vw;
+    background-color: black;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 100px;
+}
+
+
 body{
     margin: 10px;
     background-image: url(fondo.png);
     font-size: 0.75em;
+}
+
+header{
 }
 
 .cabecera{
@@ -23,21 +37,12 @@ body{
     direction: rtl;
     position: sticky;
     display:flex;
-    top: 5vh;
+    top: 1vh;
     flex-wrap: wrap;
     overflow-y:scroll;
     height: 90vh;
     width: 31vw;
 }
-
-.lateral::-webkit-scrollbar{
-    width: 0.5vw;
-}
-.lateral::-webkit-scrollbar-thumb{
-    background-color: white;
-    border-radius: 100px;
-}
-
 
 .boton{
     direction: ltr;
@@ -45,7 +50,7 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 6vh;
+    height: 5.9vh;
     width: 30vw;
     border: none;
     background-color: black;
@@ -73,6 +78,7 @@ body{
 .carrucel{
     display: flex;
     width: 1380vw;
+    height: 90vh;
 }
 
 .carrucelcajas{
@@ -85,7 +91,7 @@ body{
 }
 
 .carrucelcajas img{
-    width: 100%;
+    width: 75%;
     justify-content: center;
 }
 
