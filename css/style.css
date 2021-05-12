@@ -6,7 +6,6 @@
 
 
 *::-webkit-scrollbar{
-    width: 0.5vw;
     background-color: black;
 }
 *::-webkit-scrollbar-thumb{
@@ -21,6 +20,7 @@ body{
 }
 
 header{
+    height: 10vh;
 }
 
 .cabecera{
@@ -29,7 +29,6 @@ header{
 
 .contenedor{
     display: flex;
-    justify-content: space-between;
 }
 
 .lateral{
@@ -54,7 +53,7 @@ header{
     border: none;
     background-color: black;
     border: solid 2px white;
-    margin: 2px auto;
+    margin: 0.5em auto;
 }
 
 .boton:hover{
@@ -65,19 +64,19 @@ header{
     background-color: gray;
 }
 
-.contenedor_contenedorcarrucel{
+.contenedor_contenedorcarrucel{ 
+    border: solid 1px gray;
     overflow-x:scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 60vw;
-    height:min-content;
     margin: 0 auto;
+    height: min-content;
 }
 
 .carrucel{
     display: flex;
     width: 1380vw;
-    height: 96vh;
 }
 
 .carrucelcajas{
@@ -85,7 +84,6 @@ header{
     justify-content:space-around;
     scroll-snap-align: start;
     width: 60vw;
-    
 }
 
 .carrucelcajas img{
@@ -101,7 +99,7 @@ header{
 .descripcion{
     width: 100%;
     display: flex;
-    margin: 1vh 0;
+    margin: 1em 0;
     flex-wrap: wrap;
     justify-content:space-around;
 }
