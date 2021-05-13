@@ -17,7 +17,7 @@
 
 
 body{
-    background-image: url(fondo.png);
+    background-image: url(fondo4.png);
     background-color: black;
     font-size: 0.75em;
 }
@@ -39,9 +39,10 @@ header{
     position: sticky;
     display:flex;
     top: 2vh;
+    margin: 0 auto;
     flex-wrap: wrap;
     overflow-y:scroll;
-    height: 90vh;
+    height: 95vh;
     width: 32vw;
 }
 
@@ -89,8 +90,10 @@ header{
 }
 
 .carrucelcajas img{
+    box-sizing: border-box;
     width: 100%;
     justify-content: center;
+    border: solid white;
 }
 
 .carrucelcajas h2{
@@ -113,11 +116,12 @@ header{
 
 .sip p{
     text-align: justify;
+    margin: 0.5em;
 }
 
 .fic{
     width: 25em;
-    margin-bottom: 0em;
+    margin: 0.5em;
 }
 
 .fic li{
