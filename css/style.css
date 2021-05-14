@@ -38,26 +38,32 @@ header{
     direction: rtl;
     position: sticky;
     display:flex;
+    justify-content: center;
     top: 2vh;
-    margin: 0 auto;
+    margin: 1em auto;
     flex-wrap: wrap;
     overflow-y:scroll;
     height: 95vh;
-    width: 32vw;
+    width: 34vw;
+    border: white solid;
 }
 
+
 .boton{
-    direction: ltr;
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
+    direction: ltr;
+    
     text-decoration: none;
-    height: 10vh;
+    text-align: center;
+
+    height: 3em;
     width: 30vw;
-    border: none;
+    
     background-color: black;
-    border: solid 2px white;
-    margin: 0.5em auto;
+    border: solid white;
+    margin: 0.5em 1em;
 }
 
 .boton:hover{
